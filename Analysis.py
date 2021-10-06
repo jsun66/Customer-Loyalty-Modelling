@@ -2,7 +2,7 @@
 """
 Created on Sat Oct 27 23:12:04 2018
 
-@author: MING
+@author: jsun
 """
 
 # Importing the libraries
