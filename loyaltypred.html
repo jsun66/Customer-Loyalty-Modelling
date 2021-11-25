@@ -1,0 +1,57 @@
+<html>
+<head></head>
+<title>Customer Loyalty Prediction</title>
+<div class="container">
+  <form action="/send" method="POST">
+  
+  <label for="Credit Score">Credit Score</label>
+  <input type="text" placeholder="Credit Score" name="credit"/></br></br></br>
+
+  <label for="Age">Age</label>
+  <input type="text" placeholder="Age" name="age"/></br></br></br>
+
+  <label for="Tenure">Tenure</label>
+  <input type="text" placeholder="Tenure" name="tenure"/></br></br></br>
+
+  <label for="Balance">Balance</label>
+  <input type="text" placeholder="Balance" name="balance"/></br></br></br>
+
+  <label for="Number of Products">Number of Products</label>
+  <input type="text" placeholder="Number of Products" name="numofpro"/></br></br></br>
+
+  <label for="Has Credit Card">Has Credit Card</label>
+  <select name="hascr">
+     <option value="Yes">Yes</option>
+     <option value="No">No</option> 
+  </select></br></br></br>
+  
+  <label for="Is Active Member">Is Active Member</label>
+  <select name="isact">
+     <option value="Yes">Yes</option>
+     <option value="No">No</option> 
+  </select></br></br></br>
+
+  <label for="Estimated Salary">Estimated Salary</label>
+  <input type="text" placeholder="Estimated Salary" name="salary"/></br></br></br>
+
+  <label for="Gender">Gender</label>
+  <select name="gender">
+     <option value="Male">Male</option>
+     <option value="Female">Female</option> 
+  </select></br></br></br>
+
+  <label for="Geography">Geography</label>
+  <select name="geography">
+     <option value="Alberta">Alberta</option>
+     <option value="Manitoba">Manitoba</option>
+     <option value="Quebec">Quebec</option> 
+  </select></br></br></br>
+
+<input type="submit" value="Predict" id="Pred_btn" />
+
+
+</br></br>
+<label for="Will Exit?">Will Exit?:</label>{{ sum }}
+
+</div> 
+</html>
